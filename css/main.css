@@ -6,7 +6,7 @@ i {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-nav:hover {
+nav ul li a:hover {
   color: #860927;
 }
 
@@ -27,56 +27,19 @@ nav:hover {
   border-width: 1px;
 }
 
-@media only screen and (min-width: 25em) {
-  html {
-      font-size: 100%;
-      line-height: 1.3;
-    }
-
-    h1,
-    p {
-      margin: 0 0 1.3rem;
-    }
-
-  }
-
-}
-@media only screen and (min-width: 38em) {
-  html {
-    font-size: 110%;
-    line-height: 1.4;
-  }
-
-  h1,
-  p {
-    margin: 0 0 1.4rem;
-  }
-
+nav ul li a {
+  text-decoration: none;
+  color: #b64c6e;
 }
 
+footer {
+  color: #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
-  html {
-    font-size: 120%;
-    line-height: 1.5;
+
+  .header-right {
+    text-align: right;
   }
-
-  h1,
-  p {
-    margin: 0 0 1.5rem;
-  }
-}
-
-@media only screen and (min-width: 90em) {
-  html {
-    font-size: 130%;
-  }
-}
-
-
-
-}
-
 
 }
